@@ -1,5 +1,5 @@
 import express from 'express';
-import { createFFmpeg, fetchFile } from '@ffmpeg/ffmpeg/ffmpeg.mjs';
+import { createFFmpeg, fetchFile } from '@ffmpeg/ffmpeg';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
