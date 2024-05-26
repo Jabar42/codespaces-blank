@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text to MP4 Generator</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center my-4">Text to MP4 Generator</h1>
+    <div class="form-group">
+      <textarea class="form-control" id="text-input" rows="5" placeholder="Enter your text here..."></textarea>
+    </div>
+    <button class="btn btn-primary btn-block" onclick="generateVideo()">Generate Video</button>
+    <div id="download-container" class="mt-4" style="display: none;">
+      <a id="download-link" class="btn btn-success btn-block" download="text.mp4">Download Video</a>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
