@@ -8,9 +8,8 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "@ffmpeg/ffmpeg": "^0.10.0",
-    "@ffmpeg/core": "^0.10.0"
+    "@ffmpeg/core": "^0.12.6",
+    "@ffmpeg/ffmpeg": "^0.12.10",
+    "express": "^4.17.1"
   }
 }
-
